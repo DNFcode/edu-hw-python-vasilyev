@@ -17,6 +17,7 @@ class HashedDataRow(object):
         self.data = data
    #просто оставил коммент
    #что тут еще менять?
+   #хмм а если еще добавить?
     def filter(self, f, result = []):
         if f in self._cached_filters: 
           result += self._cached_filters[f]
